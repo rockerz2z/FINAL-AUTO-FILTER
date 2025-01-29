@@ -1,5 +1,5 @@
 {
-    "name": "Deendayal_dhakad",
+    "name": "LucyV5",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Deendayal423/Deendayal_dhakad",
-    "repository": "https://github.com/Deendayal423/Deendayal_dhakad",
+    "website": "https://github.com/Codeflix-Bots/AutoFilter",
+    "repository": "https://github.com/Codeflix-Bots/AutoFilter",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
