@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28264594'))
-API_HASH = environ.get('API_HASH', '94ca8a089020a2290fd29a41f18acb94')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6040310745:AAEcOugP9x6GN8noxi4rZ7M8UF00skb8x5U")
+API_ID = int(environ.get('API_ID', '22645'))
+API_HASH = environ.get('API_HASH', '94a089020a2290fd29a41f18')
+BOT_TOKEN = environ.get('BOT_TOKEN', "0310745:AAEcOugP9x6GN8noxi4rZ7M8UF00sk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,8 +42,8 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make 
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yatosama061:yatosama061@cluster0.xjxq9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://yatosama061:yatosama061@cluster0.xjxq9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
