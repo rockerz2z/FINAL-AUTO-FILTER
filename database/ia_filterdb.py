@@ -7,7 +7,7 @@ from pymongo.errors import DuplicateKeyError
 from umongo import Instance, Document, fields
 from motor.motor_asyncio import AsyncIOMotorClient
 from marshmallow.exceptions import ValidationError
-from info import CAPTION_LANGUAGES, DATABASE_URI, DATABASE_URI2, DATABASE_NAME, COLLECTION_NAME, USE_CAPTION_FILTER, MAX_B_TN, DEENDAYAL_MOVIE_UPDATE_NOTIFICATION, DEENDAYAL_MOVIE_UPDATE_CHANNEL
+from info import *
 from utils import get_settings, save_group_settings, temp
 from database.users_chats_db import add_name
 from .Imdbposter import get_movie_details, fetch_image
@@ -123,9 +123,9 @@ async def send_msg(bot, filename, caption):
           filenames = filename.replace(" ", '-')
           btn = [[InlineKeyboardButton('🌲 Get Files 🌲', url=f"https://telegram.me/{temp.U_NAME}?start=getfile-{filenames}")]]
           if resized_poster:
-              await bot.send_photo(chat_id=DEENDAYAL_MOVIE_UPDATE_CHANNEL, photo=resized_poster, caption=text, reply_markup=InlineKeyboardMarkup(btn))
+              await bot.send_photo(chat_id=MOVIE_UPDATE_CHANNEL, photo=resized_poster, caption=text, reply_markup=InlineKeyboardMarkup(btn))
           else:              
-              await bot.send_message(chat_id=DEENDAYAL_MOVIE_UPDATE_CHANNEL, text=text, reply_markup=InlineKeyboardMarkup(btn))
+              await bot.send_message(chat_id=MOVIE_UPDATE_CHANNEL, text=text, reply_markup=InlineKeyboardMarkup(btn))
 
     except:
         pass
@@ -171,7 +171,7 @@ async def save_file(bot, media):
       return False, 0
     else:
       logger.info(f'{getattr(media, "file_name", "NO_FILE")} is saved to database')
-      if DEENDAYAL_MOVIE_UPDATE_NOTIFICATION:
+      if MOVIE_UPDATE_NOTIFICATION:
         await send_msg(bot, file.file_name, file.caption)
       return True, 1
 
