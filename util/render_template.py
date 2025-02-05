@@ -1,5 +1,3 @@
-#Thanks @DeletedFromEarth for helping in this journey 
-
 import jinja2
 from info import *
 from LucyBot import CodeflixBot
@@ -13,7 +11,7 @@ import aiohttp
 
 async def render_page(id, secure_hash, src=None):
     file = await CodeflixBot.get_messages(int(LOG_CHANNEL), int(id))
-    file_data = await get_file_ids(DeendayalBot, int(LOG_CHANNEL), int(id))
+    file_data = await get_file_ids(CodeflixBot, int(LOG_CHANNEL), int(id))
     if file_data.unique_id[:6] != secure_hash:
         logging.debug(f"link hash: {secure_hash} - {file_data.unique_id[:6]}")
         logging.debug(f"Invalid hash for message with - ID {id}")
