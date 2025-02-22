@@ -128,8 +128,8 @@ and more....
 - [x] LOG_CHANNEL - add a private channel id
 - [x] CHANNELS - add your database channel id ,if u will share your file here the bot will add the file in database autometiccaly
 - [x] DATABASE_URI - if you dont know how to get it, read this documentation from scratch
-- [x] ᴍᴏʀᴇ ᴄᴏɴғɪɢs [ᴄʜᴀɴɢᴇ ʜᴇʀᴇ..](https://github.com/Codeflix-Bots/AutoFilter/Lucy/info.py)
 ```
+- [x] ᴍᴏʀᴇ ᴄᴏɴғɪɢs [ᴄʜᴀɴɢᴇ ʜᴇʀᴇ..](https://github.com/Codeflix-Bots/AutoFilter/Lucy/info.py)
 </details>
 
 
