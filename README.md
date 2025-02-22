@@ -30,6 +30,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙ�
 ## features
 - [x] 𝑺𝒉𝒐𝒓𝒕𝒏𝒆𝒓 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒊𝒏 𝑺𝒕𝒓𝒆𝒂𝒎 𝒂𝒏𝒅 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝒇𝒆𝒂𝒕𝒖𝒓𝒆
 - [x] 𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈, 𝑨𝒇𝒕𝒆𝒓𝒏𝒐𝒐𝒏, 𝑬𝒗𝒆𝒏𝒊𝒏𝒈, 𝑵𝒊𝒈𝒉𝒕 𝒘𝒊𝒔𝒉𝒆𝒔 
+- [x] 𝑴𝒖𝒍𝒕𝒊 𝑭𝒔𝒖𝒃 𝑺𝒖𝒑𝒑𝒐𝒓𝒕
 - [x] 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝒕𝒐 𝒋𝒐𝒊𝒏 𝒊𝒏 𝑭𝒔𝒖𝒃
 - [x] 𝑩𝒆𝒔𝒕 𝑺𝒕𝒓𝒆𝒂𝒎𝒊𝒏𝒈 𝑾𝒆𝒃𝒔𝒊𝒕𝒆
 - [x] 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝒎𝒆𝒎𝒃𝒆𝒓𝒔𝒉𝒊𝒑 𝒎𝒂𝒏𝒂𝒈𝒆𝒎𝒆𝒏𝒕 
@@ -127,7 +128,7 @@ and more....
 - [x] LOG_CHANNEL - add a private channel id
 - [x] CHANNELS - add your database channel id ,if u will share your file here the bot will add the file in database autometiccaly
 - [x] DATABASE_URI - if you dont know how to get it, read this documentation from scratch
-- [x] LOG_CHANNEL - add a private channel id
+- [x] ᴍᴏʀᴇ ᴄᴏɴғɪɢs [ᴄʜᴀɴɢᴇ ʜᴇʀᴇ..](https://github.com/Codeflix-Bots/AutoFilter/Lucy/info.py)
 ```
 </details>
 
