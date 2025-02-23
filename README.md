@@ -170,9 +170,9 @@ and more....
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ʏᴀᴛᴏ](https://github.com/Codeflix-Bots)  ➻  [ɴᴏᴛʜɪɴɢ](https://github.com/) </b>
-- <b>[ᴅᴇᴇɴᴅᴀʏᴀʟ](https://github.com/Codeflix-Bots)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/) </b>
-- <b>[ʏᴜᴊɪ](https://github.com/Codeflix-Bots)  ➻  [ᴇᴠᴇʀʏᴛʜɪɴɢ](https://github.com/) </b>
+- <b>[ʏᴀᴛᴏ](https://github.com/Codeflix-Bots)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://t.me/cosmic_freak) </b>
+- <b>[ᴅᴇᴇɴᴅᴀʏᴀʟ](https://github.com/Codeflix-Bots)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Deendayal403/Deendayal_dhakad) </b>
+- <b>[ʏᴜᴊɪ](https://github.com/Codeflix-Bots)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://t.me/nova_flix) </b>
  
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Codeflix-Bots/LucyV2/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟᴜᴄʏ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
