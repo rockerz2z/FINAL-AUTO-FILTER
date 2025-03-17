@@ -18,9 +18,9 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '2393757'))
+API_HASH = environ.get('API_HASH', '89f1050bae8e86a68c3e2278bcfbfc9b')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7920547366:AAHZeyNiSJ-xbDJ6WbVJ9NwViGfwaFjxnFY")
 
 # ============================
 # Bot Settings Configuration
@@ -28,48 +28,48 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://envs.sh/WdA.jpg https://envs.sh/Wdj.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/00c2b881ab6dd8680b232.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/Wdj.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Wdj.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/Wdj.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/Wdj.jpg'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://envs.sh/Wdj.jpg')).split()  # Fsub pic
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://te.legra.ph/file/00c2b881ab6dd8680b232.jpg'))
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://te.legra.ph/file/00c2b881ab6dd8680b232.jpg')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690').split()] # Replace with the actual admin ID(s) to add
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001619818259').split()]  # Channel id for auto indexing (make sure bot is admin)
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195'))  # Log channel id (make sure bot is admin)
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001868871195'))  # Bin channel id (make sure bot is admin)
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001868871195'))  # Notification of those who verify will be sent to your channel
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1078638766 6221939103 683443719').split()] # Replace with the actual admin ID(s) to add
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001660466640 -1001505006734').split()]  # Channel id for auto indexing (make sure bot is admin)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002366020288'))  # Log channel id (make sure bot is admin)
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002366020288'))  # Bin channel id (make sure bot is admin)
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001897773325'))  # Notification of those who verify will be sent to your channel
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001868871195'))  # Premium logs channel id
 auth_channel = environ.get('AUTH_CHANNEL', '-1001572271892')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '')  # Support group id (make sure bot is admin)
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')  # Request channel id (make sure bot is admin)
-AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1001572271892').split()]
-MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001572271892').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002481606158')  # Support group id (make sure bot is admin)
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001897773325')  # Request channel id (make sure bot is admin)
+AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1001897773325').split()]
+MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
 
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://envs.sh/Wdj.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'rohit162@fam')
+QR_CODE = environ.get('QR_CODE', 'https://te.legra.ph/file/00c2b881ab6dd8680b232.jpg')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '@Rockerzyy_bot')
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @codflix_bots</b>")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Rockerzyy_bot</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rockerz2z:Rockerzzz001@cluster0.3rz5t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://r2kfilter:r2kfilter@cluster0.utqrp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rockerz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # ============================
@@ -84,26 +84,26 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # ============================
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 24))  # Add time in hours
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1001868871195'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_to_Download_7x/30')  # How to open tutorial link for verification
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002366020288'))  # Log channel id (make sure bot is admin)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/DeiEppudra/5')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_7x/30')  # Tutorial video link for opening shortlink website
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inShortUrl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '4e4984cd36ceb0586c009fba5802e3e52ecf526a')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/DeiEppudra/5')  # Tutorial video link for opening shortlink website
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie7xchat')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nova_flix')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/cosmic_freak')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/nova_flix')
-OWNERID = int(os.environ.get('OWNERID', '6497757690'))  # Replace with the actual admin ID
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+wCLqklEuph42MmE1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Rockerz2z')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Rockerzyy_bot')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/Rockerz2z')
+OWNERID = int(os.environ.get('OWNERID', '1252660463'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
@@ -120,7 +120,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/codeflixsupport')  # Support group link (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Rockerz2z')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -189,7 +189,7 @@ else:
 # ============================
 # Reactions Configuration
 # ============================
-REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
+REACTIONS = ["🤗"]
 
 
 
