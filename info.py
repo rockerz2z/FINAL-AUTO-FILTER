@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '2393757'))
 API_HASH = environ.get('API_HASH', '89f1050bae8e86a68c3e2278bcfbfc9b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7786672125:AAGlBOKil0rIa7lHnnbHmf8SrXGSqyaHFP0")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # ============================
 # Bot Settings Configuration
@@ -67,8 +67,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://leorockerz:leorockerz001@cluster0.rwxt4zx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Moviiwrld:MoviiWrld02@cluster0.hntikee.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rockerz2ktg:riyazkk@2003@cluster0.nub1oog.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://rockerz2ktg:riyazkk@2003@cluster0.cinlglo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rockerz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
